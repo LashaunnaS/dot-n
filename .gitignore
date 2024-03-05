@@ -1,0 +1,17 @@
+# Ignore everything by default.
+*
+
+# The gitignore of this repository itself (!)
+!.gitignore
+
+# Include git configuration files.
+!.git_commit_template
+
+# Include neovim configuration files.
+!nvim/
+!nvim/**
+
+# Include kitty configuration files.
+!kitty/
+!kitty/**
+
